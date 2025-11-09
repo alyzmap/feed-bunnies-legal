@@ -1,0 +1,112 @@
+=== TEMEL MALZEMELER (Ana Bileşenler) ===
+1. banana (Muz)
+2. blueberrys (Yaban mersini)
+3. bread (Ekmek)
+4. egg (Yumurta)
+5. cheese (Peynir)
+6. salami (Salam)
+7. butter (Tereyağı)
+8. mulk (Süt)
+9. oats (Yulaf)
+10. flour (Un)
+11. salt (Tuz)
+12. sugar (Şeker)
+
+=== YEMEK TARİFLERİ (Malzemeler → Sonuç) ===
+
+--- KAHVALTI YEMEKLERI ---
+
+[YUMURTA BAZLI]
+1. Sunny_Side_Up_Egg = egg
+2. Boiled_Egg = egg
+
+[EKMEK BAZLI]
+3. Flat_Bread = flour
+4. Banana_Bread = bread + banana
+5. Crispy_Toast = bread
+6. Burned_Toast = bread (YANMIŞ - Olmayan)
+7. French_Toast = bread + egg
+8. Banana_French_Toast = bread + egg + banana
+9. Blueberry_French_Toast = bread + egg + blueberrys
+
+[SANDVIÇ TARİFLERİ]
+10. Bland_Sandwich = bread (Sade)
+11. Egg_Sandwich = bread + egg
+12. Cheese_Sandwich = bread + cheese
+13. Salami_Sandwich = bread + salami
+14. Egg_Cheese_Sandwich = bread + egg + cheese
+15. Egg_Salami_Sandwich = bread + egg + salami
+16. Cheese_Salami_Sandwich = bread + cheese + salami
+17. Egg_Cheese_Salami_Sandwich = bread + egg + cheese + salami
+
+[PANKEK TARİFLERİ]
+18. Pancakes = flour + egg
+19. Banana_Pancakes = flour + egg + banana
+20. Blueberry_Pancakes = flour + egg + blueberrys (Bu dosya yok ama mantıken olmalı)
+21. Healthy_Pancakes = flour + egg + oats
+22. Healthy_Blueberry_Pancakes = flour + egg + oats + blueberrys
+
+[LAPAlar (Porridge)]
+23. Plain_Porridge = oats + mulk
+24. Banana_Porridge = oats + mulk + banana
+25. Blueberry_Porridge = oats + mulk + blueberrys
+26. Blueberry_Banana_Porridge = oats + mulk + blueberrys + banana
+27. Scary_Porridge = oats + mulk (KORKUNÇ - Olmayan)
+
+[OZEL YEMEKLER]
+28. Baked_Banana = banana
+29. Fried_Banana = banana
+30. Fondue = cheese
+31. Mug_Cake = flour + egg + sugar
+32. Fruit_Salad = banana + blueberrys
+33. Quiche = egg + cheese + flour
+34. Charcuterie_Board = cheese + salami
+35. Salami_Rose = salami (Dekoratif)
+
+[SÜTLÜ İÇECEKLER]
+36. Banana_Milk = mulk + banana
+37. Blueberry_Milk = mulk + blueberrys
+38. Hot_Milk = mulk
+39. Blueberry_Jam = blueberrys + sugar
+
+[ÖZEL / EKSTRAlar]
+40. Granola = oats + sugar
+41. Ghee = butter
+42. Smoothie = mulk + banana + blueberrys
+
+--- "OLMAYAN" YEMEKLER (Hatalı/Yanmış/Garip) ---
+43. Banana_Mess = OLMAYAN (Karışık pislik)
+44. Blueberry_Mess = OLMAYAN (Karışık pislik)
+45. Covered_Mess = OLMAYAN
+46. Eggy_Mess = OLMAYAN
+47. Fancy_Mess = OLMAYAN
+48. Flowery_Mess = OLMAYAN
+49. Salty_Mess = OLMAYAN
+50. Mess_in_a_Mug = OLMAYAN
+51. Getting_Mugged = OLMAYAN
+52. Monster_Cocktail = OLMAYAN
+53. Food_Monster = OLMAYAN
+54. Burned_Toast = OLMAYAN (Yanmış)
+55. Scary_Porridge = OLMAYAN (Korkunç lapa)
+
+=== MARKET'TE SATILACAK MALZEMELER ===
+✓ banana (Muz)
+✓ blueberrys (Yaban mersini)
+✓ bread (Ekmek)
+✓ egg (Yumurta)
+✓ cheese (Peynir)
+✓ salami (Salam)
+✓ butter (Tereyağı)
+✓ mulk (Süt)
+✓ oats (Yulaf)
+✓ flour (Un)
+✓ salt (Tuz)
+✓ sugar (Şeker)
+
+=== SİSTEM KURALLARI ===
+1. Müşteriler artık TÜM YEMEKLERİ isteyebilir (yukarıdaki 1-55 arası)
+2. "Olmayan" yemekler gelirse basket_1'e sürükle
+3. Basket_1 = ÇÖP KUTUSİ (Oraya bırakılan her şey yok olsun)
+4. Market'ten satın alınan malzemeler → "Malzemeler" node'una gelsin
+5. Müşteri siparişi doğru yapıldıysa → Para kazan
+6. Müşteri siparişi yanlış/çöpe atılırsa → Müşteri gitsin

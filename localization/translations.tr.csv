@@ -1,0 +1,44 @@
+keys,tr
+GAME_OVER_TITLE,OYUN BİTTİ!
+GAME_OVER_BALANCE,Para: {balance}
+GAME_OVER_RESTART,Yeniden Başla
+TIP_TOO_MANY_ANGRY,💡 Çok fazla müşteri kaçtı!\nDaha hızlı yemek pişir ve servis et!
+TIP_WRONG_FOOD,💡 Çok fazla yanlış yemek verdin!\nTarifleri iyi kontrol et!
+TIP_SPOILED_FOOD,💡 Çok fazla yemek bozuldu!\n30 saniye içinde servis et!
+TIP_MANAGE_TIME,💡 Müşterilere daha hızlı yemek ver!\nSabır dolmadan servis et.
+TIP_UNLOCK_INGREDIENTS,💡 Karmaşık tarifler daha fazla kazandırır!\n3-4 malzemeli yemekler yap.
+TIP_WATCH_TIMER,💡 Yemekleri 30sn içinde servis et!\nBozulmasın zarar etme!
+TIP_CHECK_ORDERS,💡 Yanlış yemek verme!\nHer yanlış -30 para kaybettiriyor.
+TIP_STAY_CALM,💡 Parayı dengeli harca!\nGerekli malzemelere öncelik ver.
+MARKET_TITLE,MALZEMELER
+MARKET_LOCKED,Kilitli
+MARKET_PRICE,₺{price}
+COOKBOOK_TITLE,TARİFLER
+COOKBOOK_LOCKED,???
+COOKBOOK_INGREDIENTS,Malzemeler:
+CUSTOMER_ANGRY,😠 Müşteri sinirlenerek ayrıldı
+CUSTOMER_PENALTY,💸 Müşteri gittiği için -{penalty} para cezası!
+WRONG_FOOD_PENALTY,❌ Yanlış sipariş! -{penalty} para cezası
+SPOILED_FOOD_PENALTY,🤢 BOZUK YEMEK VERİLDİ! -{penalty} para cezası
+GAME_OVER_MONEY,💀 GAME OVER! Para bitti
+COOKING_IN_PROGRESS,Pişirme devam ediyor, yeni malzeme eklenemez!
+CANNOT_OPEN_MARKET_BOOK,Kitap açıkken market açılamaz!
+CANNOT_OPEN_MARKET_INGREDIENT,Elimde malzeme varken market açılamaz!
+CANNOT_OPEN_MARKET_FOOD,Elimde yemek varken market açılamaz!
+NOT_ENOUGH_MONEY,Yeterli para yok!
+INGREDIENT_BOUGHT,✅ Satın alındı
+INGREDIENT_UNLOCKED,🔓 Yeni malzeme kilidi açıldı
+NOT_ENOUGH_MONEY_UNLOCK,Kilidi açmak için yeterli para yok!
+MONEY_LABEL,Para: ₺{money}
+INGREDIENT_EGG,Yumurta
+INGREDIENT_FLOUR,Un
+INGREDIENT_BREAD,Ekmek
+INGREDIENT_BANANA,Muz
+INGREDIENT_BLUEBERRY,Yaban Mersini
+INGREDIENT_CHEESE,Peynir
+INGREDIENT_SALAMI,Salam
+INGREDIENT_MILK,Süt
+INGREDIENT_BUTTER,Tereyağı
+INGREDIENT_SALT,Tuz
+INGREDIENT_SUGAR,Şeker
+INGREDIENT_OATS,Yulaf

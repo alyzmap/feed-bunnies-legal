@@ -19,7 +19,7 @@ The Game does NOT:
 - Share data with third parties
 
 ### Data Storage
-All game progress is stored locally on your device only. No data is transmitted to external servers.
+All game progress (money, unlocked ingredients) is stored locally on your device only. The game uses Godot's built-in save system (`user://savegame.save`). No data is transmitted to external servers.
 
 ### Children's Privacy
 The Game does not knowingly collect any information from children. It is safe for all ages.
@@ -49,7 +49,7 @@ Oyun ASLA:
 - Üçüncü taraflarla veri paylaşmaz
 
 ### Veri Depolama
-Tüm oyun ilerlemesi yalnızca cihazınızda yerel olarak saklanır. Hiçbir veri harici sunuculara iletilmez.
+Tüm oyun ilerlemesi (para, açılmış malzemeler) yalnızca cihazınızda yerel olarak saklanır. Oyun, Godot'nun yerleşik kayıt sistemini (`user://savegame.save`) kullanır. Hiçbir veri harici sunuculara iletilmez.
 
 ### Çocukların Gizliliği
 Oyun, çocuklardan herhangi bir bilgi toplamaz. Her yaş için güvenlidir.

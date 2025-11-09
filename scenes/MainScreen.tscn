@@ -1,0 +1,1176 @@
+[gd_scene load_steps=97 format=3 uid="uid://u1d8lamx680m"]
+
+[ext_resource type="Script" path="res://scripts/MainScreen.gd" id="1_mainscreen"]
+[ext_resource type="Texture2D" uid="uid://dpqvxuakpfb28" path="res://assets/Asset 168.png" id="1_50uwr"]
+[ext_resource type="Script" uid="uid://cqoqhptihdlj6" path="res://scripts/CookBookManager.gd" id="1_cookbook"]
+[ext_resource type="PackedScene" uid="uid://50goik1t5krk" path="res://scenes/GameOverUI.tscn" id="1_gameover"]
+[ext_resource type="Texture2D" uid="uid://da5vl5o235p4r" path="res://assets/Close.png" id="2_close"]
+[ext_resource type="Texture2D" uid="uid://p0cmhqqevg7q" path="res://assets/CookBook.png" id="2_cookbook"]
+[ext_resource type="Script" uid="uid://u8ebmgf8uk3b" path="res://scripts/CookingManager.gd" id="2_cooking"]
+[ext_resource type="Texture2D" uid="uid://dx7qghj44axmo" path="res://assets/n1.png" id="2_xsc07"]
+[ext_resource type="Texture2D" uid="uid://dv7ws80bugghp" path="res://assets/Book_Back.png" id="3_bookback"]
+[ext_resource type="Texture2D" uid="uid://t1wkw0ikpls4" path="res://assets/counter.png" id="3_d0kku"]
+[ext_resource type="Texture2D" uid="uid://8jswhhxemle" path="res://assets/n2.png" id="3_o3cub"]
+[ext_resource type="Texture2D" uid="uid://cwenpndunu0v5" path="res://assets/tb.png" id="3_tb"]
+[ext_resource type="Texture2D" uid="uid://8g6wnpndyi1a" path="res://assets/Book_Mid.png" id="4_bookmid"]
+[ext_resource type="Texture2D" uid="uid://bnfiv4qeumk4n" path="res://assets/stove.png" id="4_ms6rp"]
+[ext_resource type="Texture2D" uid="uid://do0gv6hciac5g" path="res://assets/n3.png" id="4_qech1"]
+[ext_resource type="Texture2D" uid="uid://brev8irt7ojgn" path="res://assets/Book_Pages.png" id="5_bookpages"]
+[ext_resource type="Texture2D" uid="uid://cyisg48enqvpq" path="res://assets/n4.png" id="5_fc3g0"]
+[ext_resource type="Texture2D" uid="uid://dkyclnea88p2p" path="res://assets/coffemaker.png" id="5_nkv16"]
+[ext_resource type="Texture2D" uid="uid://mgiwyoa5mpb0" path="res://assets/pot_back.png" id="6_3g2uh"]
+[ext_resource type="Texture2D" uid="uid://dn6yc1ci5jd64" path="res://assets/n5.png" id="6_qpvdl"]
+[ext_resource type="Texture2D" uid="uid://dbhstpurn46o3" path="res://assets/n6.png" id="7_6yc4u"]
+[ext_resource type="Texture2D" uid="uid://57l831aims2i" path="res://assets/pot_base.png" id="7_f8bd6"]
+[ext_resource type="Texture2D" uid="uid://d3crhve1qj18d" path="res://assets/pot_base_hot.png" id="7_pot_hot"]
+[ext_resource type="Script" uid="uid://bl80qtc6cgk68" path="res://scripts/CustomerManager.gd" id="8_f8bd6"]
+[ext_resource type="Texture2D" uid="uid://bs04u8x6mo1q8" path="res://assets/pot_lid.png" id="8_pot_lid"]
+[ext_resource type="Texture2D" uid="uid://b7iy1i2ax5r7r" path="res://assets/n7.png" id="8_svyq1"]
+[ext_resource type="Texture2D" uid="uid://m8dmyv5g8ib" path="res://assets/shelf_1.png" id="8_wke1g"]
+[ext_resource type="Texture2D" uid="uid://bntmmv2qco2h5" path="res://assets/n8.png" id="9_cw2ub"]
+[ext_resource type="Texture2D" uid="uid://e3bp4ae1bvwo" path="res://assets/Baby_Groot.png" id="9_ms6rp"]
+[ext_resource type="Texture2D" uid="uid://b41xn84k650vq" path="res://assets/A_Painting.png" id="10_nkv16"]
+[ext_resource type="Texture2D" uid="uid://rxud4ci5jnkg" path="res://assets/n9.png" id="10_wwk02"]
+[ext_resource type="Texture2D" uid="uid://cvgq3ipun1ck2" path="res://assets/n10.png" id="11_bmcfk"]
+[ext_resource type="Texture2D" uid="uid://bb0ol7f7v463d" path="res://assets/trash.png" id="12_f8bd6"]
+[ext_resource type="Texture2D" uid="uid://22krqsjhdslm" path="res://assets/Banana_Bread.png" id="16_82jb2"]
+[ext_resource type="Texture2D" uid="uid://dhf15hx5iehya" path="res://assets/bread.png" id="17_4awtt"]
+[ext_resource type="Texture2D" uid="uid://me1l8ggr7bn2" path="res://assets/Flat_Bread.png" id="18_vnnln"]
+[ext_resource type="Texture2D" uid="uid://d3a7nusjlnmda" path="res://assets/Banana_French_Toast.png" id="19_ud5g0"]
+[ext_resource type="Texture2D" uid="uid://dnflarm2gs7ac" path="res://assets/Blueberry_French_Toast.png" id="20_qrkse"]
+[ext_resource type="Texture2D" uid="uid://be6ok0td14rp1" path="res://assets/Crispy_Toast.png" id="21_42epe"]
+[ext_resource type="Texture2D" uid="uid://djmdrtg62lnjm" path="res://assets/Baked_Banana.png" id="22_n0da5"]
+[ext_resource type="Texture2D" uid="uid://chj1x6h7sxjmq" path="res://assets/French_Toast.png" id="23_qdmx6"]
+[ext_resource type="Texture2D" uid="uid://6drf770giin4" path="res://assets/Banana_Milk.png" id="24_eb6eu"]
+[ext_resource type="Texture2D" uid="uid://bdbp7vnnn057a" path="res://assets/Blueberry_Milk.png" id="25_1axwr"]
+[ext_resource type="Texture2D" uid="uid://dheq3vhaqe74k" path="res://assets/Blueberry_Jam.png" id="26_uaw5s"]
+[ext_resource type="Texture2D" uid="uid://blgck6ac5a1rf" path="res://assets/Banana_Porridge.png" id="27_ow4wf"]
+[ext_resource type="Texture2D" uid="uid://ctk2fmarxh3q0" path="res://assets/Blueberry_Banana_Porridge.png" id="28_a33fp"]
+[ext_resource type="Texture2D" uid="uid://dup7ose1titcx" path="res://assets/Blueberry_Porridge.png" id="29_6x3fx"]
+[ext_resource type="Texture2D" uid="uid://chgwvgjchlos8" path="res://assets/Scary_Porridge.png" id="30_7r81i"]
+[ext_resource type="Script" uid="uid://rqc62qhdpgij" path="res://scenes/SignController.gd" id="30_signscript"]
+[ext_resource type="Texture2D" uid="uid://bqpp2ug2t2awv" path="res://assets/Plain_Porridge.png" id="31_l4xa4"]
+[ext_resource type="Script" uid="uid://ci5vjwi878hhj" path="res://scenes/MoneyManager.gd" id="31_money"]
+[ext_resource type="Script" uid="uid://8382qjofritg" path="res://scenes/MarketScreen.gd" id="32_market"]
+[ext_resource type="Texture2D" uid="uid://c00yce0wwjqxi" path="res://assets/Boiled_Egg.png" id="32_x63ct"]
+[ext_resource type="Texture2D" uid="uid://yuayy60d16ln" path="res://assets/Bland_Sandwich.png" id="33_7w1la"]
+[ext_resource type="Texture2D" uid="uid://b8h3qutckjgh6" path="res://assets/Cheese_Salami_Sandwich.png" id="34_e0orf"]
+[ext_resource type="Texture2D" uid="uid://chubd5vmygkle" path="res://assets/Cheese_Sandwich.png" id="35_o1wsb"]
+[ext_resource type="Texture2D" uid="uid://byw6lik1i1oum" path="res://assets/Egg_Cheese_Salami_Sandwich.png" id="36_ito2s"]
+[ext_resource type="Texture2D" uid="uid://dlbuwdqsnksms" path="res://assets/Egg_Cheese_Sandwich.png" id="37_qhgu5"]
+[ext_resource type="Texture2D" uid="uid://bwndj5ph72x8o" path="res://assets/Egg_Salami_Sandwich.png" id="38_ytre1"]
+[ext_resource type="Texture2D" uid="uid://cbcgf85r613u6" path="res://assets/Egg_Sandwich.png" id="39_xsc07"]
+[ext_resource type="Texture2D" uid="uid://dfpvt1lccmtaf" path="res://assets/Salami_Sandwich.png" id="40_o3cub"]
+[ext_resource type="Texture2D" uid="uid://br37s5nyusog7" path="res://assets/Fondue.png" id="41_qech1"]
+[ext_resource type="Texture2D" uid="uid://djl4wwd78n08w" path="res://assets/Fried_Banana.png" id="42_fc3g0"]
+[ext_resource type="Texture2D" uid="uid://b2x0b6jyywidl" path="res://assets/babyblue.jpg" id="42_o3cub"]
+[ext_resource type="Texture2D" uid="uid://t5xtyp41huus" path="res://assets/c1.png" id="43_6yc4u"]
+[ext_resource type="Texture2D" uid="uid://b40nyvd4veoww" path="res://assets/Fruit_Salad.png" id="43_qpvdl"]
+[ext_resource type="Texture2D" uid="uid://bae6v2jwbd5r1" path="res://assets/Mug_Cake.png" id="44_6yc4u"]
+[ext_resource type="Texture2D" uid="uid://cdhdupwf3uqxl" path="res://c2.png" id="44_svyq1"]
+[ext_resource type="Texture2D" uid="uid://dkj1vc8hw0vex" path="res://assets/Sunny_Side_Up_Egg.png" id="45_svyq1"]
+[ext_resource type="Texture2D" uid="uid://pwummn7t6qw2" path="res://assets/banana.png" id="46_banana"]
+[ext_resource type="Texture2D" uid="uid://cxwlffi1vo8ax" path="res://assets/blueberrys.png" id="47_blueberry"]
+[ext_resource type="Texture2D" uid="uid://h0qru86jhxj5" path="res://assets/egg.png" id="48_egg"]
+[ext_resource type="Texture2D" uid="uid://2ncw6xo7gl6p" path="res://assets/cheese.png" id="49_cheese"]
+[ext_resource type="Texture2D" uid="uid://bys8p0608wfuy" path="res://assets/salami.png" id="50_salami"]
+[ext_resource type="Texture2D" uid="uid://ds3cjc100tc8g" path="res://assets/butter.png" id="51_butter"]
+[ext_resource type="Texture2D" uid="uid://da87mmg6dyfbi" path="res://assets/mulk.png" id="52_milk"]
+[ext_resource type="Texture2D" uid="uid://do4cqnlbmxico" path="res://assets/oats_base.png" id="53_oats"]
+[ext_resource type="Texture2D" uid="uid://bjtpflmc23fdl" path="res://assets/flour_base.png" id="54_flour"]
+[ext_resource type="Texture2D" uid="uid://dswrq3eg6y4ol" path="res://assets/master_chef.png" id="55_qech1"]
+[ext_resource type="Texture2D" uid="uid://d2rw1m74ddubn" path="res://assets/salt.png" id="55_salt"]
+[ext_resource type="Texture2D" uid="uid://bcy2dfhnqnaa7" path="res://assets/sugar_bowl.png" id="56_sugar"]
+[ext_resource type="Texture2D" uid="uid://d8qarxadoiqi" path="res://assets/coinr.png" id="59_qech1"]
+[ext_resource type="Texture2D" uid="uid://ckb3uvmtm5y26" path="res://assets/open2.png" id="61_o3cub"]
+[ext_resource type="Texture2D" uid="uid://dr0hj1rxuohwg" path="res://assets/close2.png" id="63_qech1"]
+[ext_resource type="Texture2D" uid="uid://bbfnnk5i7h0ic" path="res://assets/handle_hanger.png" id="74_7w1la"]
+[ext_resource type="Texture2D" uid="uid://bq0ndtco4rslg" path="res://assets/sooup_spoon.png" id="74_x63ct"]
+[ext_resource type="Texture2D" uid="uid://dq58u1tlkgyuk" path="res://assets/spatula.png" id="75_7w1la"]
+[ext_resource type="Texture2D" uid="uid://dinntxu3q0edw" path="res://assets/spoon.png" id="76_e0orf"]
+[ext_resource type="Script" uid="uid://dqf77tc5qt8ke" path="res://scripts/IngredientManager.gd" id="77_ingredient"]
+[ext_resource type="Texture2D" uid="uid://p0xipm0qeqi7" path="res://assets/c3.png" id="88_cw2ub"]
+
+[sub_resource type="GDScript" id="GDScript_CursorManager"]
+script/source = "extends Control
+
+func _ready():
+	# Normal cursor kullan
+	Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
+"
+
+[sub_resource type="GDScript" id="GDScript_basket"]
+script/source = "extends Sprite2D
+
+var original_rotation: float = 0.0
+
+func _ready():
+	original_rotation = rotation
+
+# Çöp sallama animasyonu
+func shake():
+	var tween = create_tween()
+	tween.set_trans(Tween.TRANS_QUAD)
+	tween.set_ease(Tween.EASE_IN_OUT)
+	# Hafif sallan
+	tween.tween_property(self, \"rotation\", original_rotation + deg_to_rad(8), 0.08)
+	tween.tween_property(self, \"rotation\", original_rotation - deg_to_rad(8), 0.08)
+	tween.tween_property(self, \"rotation\", original_rotation, 0.08)
+
+# Drop kontrolü - malzeme bırakıldığında
+func check_drop(mouse_pos: Vector2) -> bool:
+	var basket_rect = Rect2(global_position - texture.get_size() * scale / 2, texture.get_size() * scale)
+	if basket_rect.has_point(mouse_pos):
+		print(\"Çöpe atıldı!\")
+		shake()  # Çöp sallan
+		return true
+	return false
+"
+
+[sub_resource type="GDScript" id="GDScript_PotClick"]
+script/source = "extends Sprite2D
+
+func _input(event: InputEvent):
+	if event is InputEventMouseButton and event.pressed and event.button_index == MOUSE_BUTTON_LEFT:
+		var mouse_pos = get_global_mouse_position()
+		var pot_rect = Rect2(global_position - texture.get_size() * scale / 2, texture.get_size() * scale)
+		
+		if pot_rect.has_point(mouse_pos):
+			var cooking_manager = get_node('../CookingManager')
+			if cooking_manager:
+				cooking_manager.start_cooking()
+"
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1"]
+bg_color = Color(1, 1, 1, 0.15)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.8, 0.7, 0.6, 0.3)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[sub_resource type="GDScript" id="GDScript_CloseButton"]
+script/source = "extends TextureButton
+
+var original_scale: Vector2
+var original_modulate: Color
+
+func _ready():
+	original_scale = scale
+	original_modulate = modulate
+	mouse_entered.connect(_on_mouse_entered)
+	mouse_exited.connect(_on_mouse_exited)
+
+func _on_mouse_entered():
+	var tween = create_tween()
+	tween.set_parallel(true)
+	tween.tween_property(self, \"scale\", original_scale * 1.2, 0.2)
+	tween.tween_property(self, \"modulate\", Color(1.3, 1.3, 1.3, 1.0), 0.2)
+
+func _on_mouse_exited():
+	var tween = create_tween()
+	tween.set_parallel(true)
+	tween.tween_property(self, \"scale\", original_scale, 0.2)
+	tween.tween_property(self, \"modulate\", original_modulate, 0.2)
+"
+
+[sub_resource type="GDScript" id="GDScript_CookBookButton"]
+script/source = "extends TextureButton
+
+var original_scale: Vector2
+
+func _ready():
+	print(\"CookBook butonu hazır\")
+	original_scale = scale
+	pressed.connect(_on_pressed)
+	mouse_entered.connect(_on_mouse_entered)
+	mouse_exited.connect(_on_mouse_exited)
+
+func _on_pressed():
+	print(\"CookBook butonu tıklandı!\")
+	var cookbook_ui = get_node(\"../CookBookUI\")
+	if cookbook_ui:
+		# Toggle: açıksa kapat, kapalıysa aç
+		if cookbook_ui.is_open:
+			cookbook_ui.close_book()
+		else:
+			cookbook_ui.open_book()
+
+func _on_mouse_entered():
+	var tween = create_tween()
+	tween.tween_property(self, \"scale\", original_scale * 1.1, 0.2)
+
+func _on_mouse_exited():
+	var tween = create_tween()
+	tween.tween_property(self, \"scale\", original_scale, 0.2)
+"
+
+[node name="MainScreen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_mainscreen")
+grow_vertical = 2
+script = SubResource("GDScript_CursorManager")
+
+[node name="Yemekler" type="Node2D" parent="."]
+
+[node name="Malzemeler" type="Node2D" parent="."]
+z_index = 100
+position = Vector2(360, 900)
+script = ExtResource("77_ingredient")
+
+[node name="AreaBackground" type="ColorRect" parent="Malzemeler"]
+offset_left = -31.0
+offset_top = 168.0
+offset_right = 353.0
+offset_bottom = 318.0
+color = Color(0.9, 0.85, 0.75, 0.3)
+
+[node name="AreaBorder" type="ReferenceRect" parent="Malzemeler"]
+offset_left = -31.0
+offset_top = 168.0
+offset_right = 353.0
+offset_bottom = 318.0
+border_color = Color(0.6, 0.5, 0.4, 0.8)
+border_width = 3.0
+
+[node name="FoodSpawnArea" type="Node2D" parent="."]
+z_index = 100
+position = Vector2(360, 650)
+
+[node name="AreaBackground" type="ColorRect" parent="FoodSpawnArea"]
+visible = false
+offset_left = -120.0
+offset_top = -40.0
+offset_right = 120.0
+offset_bottom = 40.0
+color = Color(0.75, 0.9, 0.85, 0.3)
+
+[node name="AreaBorder" type="ReferenceRect" parent="FoodSpawnArea"]
+visible = false
+offset_left = -120.0
+offset_top = -40.0
+offset_right = 120.0
+offset_bottom = 40.0
+border_color = Color(0.4, 0.6, 0.5, 0.8)
+border_width = 3.0
+
+[node name="TrashBasket" type="Sprite2D" parent="."]
+z_index = 50
+position = Vector2(597.86, 195.14)
+scale = Vector2(0.261992, 0.258086)
+texture = ExtResource("3_tb")
+script = SubResource("GDScript_basket")
+
+[node name="Yemekler#BananaBread" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(-466, 384)
+texture = ExtResource("16_82jb2")
+
+[node name="Yemekler#Bread" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(-536, 396)
+texture = ExtResource("17_4awtt")
+
+[node name="Yemekler#FlatBread" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(-435, 511)
+texture = ExtResource("18_vnnln")
+
+[node name="Yemekler#BananaFrenchToast" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(-443, 560)
+texture = ExtResource("19_ud5g0")
+
+[node name="Yemekler#BlueberryFrenchToast" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(-453, 620)
+texture = ExtResource("20_qrkse")
+
+[node name="Yemekler#CrispyToast" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(-443, 625)
+texture = ExtResource("21_42epe")
+
+[node name="Yemekler#BakedBanana" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(-489, 316)
+texture = ExtResource("22_n0da5")
+
+[node name="Yemekler#FrenchToast" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(-383, 658)
+texture = ExtResource("23_qdmx6")
+
+[node name="Yemekler#BananaMilk" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(-484, 544)
+texture = ExtResource("24_eb6eu")
+
+[node name="Yemekler#BlueberryMilk" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(-510, 537)
+texture = ExtResource("25_1axwr")
+
+[node name="Yemekler#BlueberryJam" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(-349, 752)
+texture = ExtResource("26_uaw5s")
+
+[node name="Yemekler#BananaPorridge" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(-435, 625)
+texture = ExtResource("27_ow4wf")
+
+[node name="Yemekler#BlueberryBananaPorridge" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(-492, 638)
+texture = ExtResource("28_a33fp")
+
+[node name="Yemekler#BlueberryPorridge" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(-489, 793)
+texture = ExtResource("29_6x3fx")
+
+[node name="Yemekler#ScaryPorridge" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(-469, 796)
+texture = ExtResource("30_7r81i")
+
+[node name="Yemekler#PlainPorridge" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(-412, 754)
+texture = ExtResource("31_l4xa4")
+
+[node name="Yemekler#BoiledEgg" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(-412, 804)
+texture = ExtResource("32_x63ct")
+
+[node name="Yemekler#BlandSandwich" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(-464, 741)
+texture = ExtResource("33_7w1la")
+
+[node name="Yemekler#CheeseSalamiSandwich" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(-453, 762)
+texture = ExtResource("34_e0orf")
+
+[node name="Yemekler#CheeseSandwich" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(-495, 822)
+texture = ExtResource("35_o1wsb")
+
+[node name="Yemekler#EggCheeseSalamiSandwich" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(-399, 762)
+texture = ExtResource("36_ito2s")
+
+[node name="Yemekler#EggCheeseSandwich" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(-440, 780)
+texture = ExtResource("37_qhgu5")
+
+[node name="Yemekler#EggSalamiSandwich" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(-409, 939)
+texture = ExtResource("38_ytre1")
+
+[node name="Yemekler#EggSandwich" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(-445, 983)
+texture = ExtResource("39_xsc07")
+
+[node name="Yemekler#SalamiSandwich" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(-391, 806)
+texture = ExtResource("40_o3cub")
+
+[node name="Yemekler#Fondue" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(-422, 731)
+texture = ExtResource("41_qech1")
+
+[node name="Yemekler#FriedBanana" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(-497, 731)
+texture = ExtResource("42_fc3g0")
+
+[node name="Yemekler#FruitSalad" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(-381, 754)
+texture = ExtResource("43_qpvdl")
+
+[node name="Yemekler#MugCake" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(-425, 796)
+texture = ExtResource("44_6yc4u")
+
+[node name="Yemekler#SunnySideUpEgg" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(-417, 669)
+texture = ExtResource("45_svyq1")
+
+[node name="Yemekler#SpawnPoints" type="Node" parent="."]
+
+[node name="Yemekler_SpawnPoints#Point1" type="Marker2D" parent="."]
+position = Vector2(120, 350)
+
+[node name="Yemekler_SpawnPoints#Point2" type="Marker2D" parent="."]
+position = Vector2(240, 350)
+
+[node name="Yemekler_SpawnPoints#Point3" type="Marker2D" parent="."]
+position = Vector2(360, 350)
+
+[node name="Yemekler_SpawnPoints#Point4" type="Marker2D" parent="."]
+position = Vector2(480, 350)
+
+[node name="Yemekler_SpawnPoints#Point5" type="Marker2D" parent="."]
+position = Vector2(600, 350)
+
+[node name="Wall" type="Sprite2D" parent="."]
+position = Vector2(343, 539)
+scale = Vector2(1.10791, 1.11665)
+texture = ExtResource("1_50uwr")
+
+[node name="Counter" type="Sprite2D" parent="."]
+position = Vector2(519, 706)
+scale = Vector2(1.07708, 1.06389)
+texture = ExtResource("3_d0kku")
+
+[node name="Stove" type="Sprite2D" parent="."]
+position = Vector2(164, 1038)
+scale = Vector2(0.462871, 0.5152)
+texture = ExtResource("4_ms6rp")
+
+[node name="Coffemaker" type="Sprite2D" parent="."]
+position = Vector2(117, 1050)
+scale = Vector2(0.430714, 0.370984)
+texture = ExtResource("5_nkv16")
+
+[node name="PotBack" type="Sprite2D" parent="."]
+position = Vector2(241.7, 986.35)
+scale = Vector2(0.45, 0.423)
+texture = ExtResource("6_3g2uh")
+
+[node name="PotBase" type="Sprite2D" parent="."]
+position = Vector2(241.7, 1047.35)
+scale = Vector2(0.45, 0.423)
+texture = ExtResource("7_f8bd6")
+script = SubResource("GDScript_PotClick")
+
+[node name="CookingManager" type="Node2D" parent="."]
+position = Vector2(241.7, 1047.35)
+script = ExtResource("2_cooking")
+
+[node name="PotLid" type="Sprite2D" parent="CookingManager"]
+z_index = 10
+position = Vector2(0, -96)
+scale = Vector2(0.45, 0.423)
+texture = ExtResource("8_pot_lid")
+
+[node name="PotHotIndicator" type="Sprite2D" parent="CookingManager"]
+visible = false
+scale = Vector2(0.45, 0.423)
+texture = ExtResource("7_pot_hot")
+
+[node name="RecipeButtonsContainer" type="CanvasLayer" parent="CookingManager"]
+layer = 100
+visible = false
+
+[node name="ClearPotButton" type="Button" parent="CookingManager"]
+visible = false
+offset_left = -50.0
+offset_top = -200.0
+offset_right = 50.0
+offset_bottom = -160.0
+text = "🗑️ Sıfırla"
+flat = true
+
+[node name="Babyblue" type="Sprite2D" parent="CookingManager"]
+position = Vector2(129.05, -629.6)
+scale = Vector2(1.13118, 0.3145)
+texture = ExtResource("42_o3cub")
+
+[node name="C1" type="Sprite2D" parent="CookingManager"]
+position = Vector2(-183.7, -725.35)
+scale = Vector2(0.298828, 0.315918)
+texture = ExtResource("43_6yc4u")
+
+[node name="C2" type="Sprite2D" parent="CookingManager"]
+position = Vector2(118.3, -608.35)
+scale = Vector2(0.23291, 0.208496)
+texture = ExtResource("44_svyq1")
+
+[node name="Shelf1" type="Sprite2D" parent="."]
+position = Vector2(360, 260.5)
+scale = Vector2(1, 2.03846)
+texture = ExtResource("8_wke1g")
+
+[node name="Shelf2" type="Sprite2D" parent="."]
+z_index = 100
+position = Vector2(360, 566)
+texture = ExtResource("8_wke1g")
+
+[node name="CustomerManager" type="Node" parent="."]
+script = ExtResource("8_f8bd6")
+
+[node name="n1" type="Sprite2D" parent="CustomerManager"]
+position = Vector2(251, 467)
+scale = Vector2(0.159, 0.159)
+texture = ExtResource("2_xsc07")
+
+[node name="n2" type="Sprite2D" parent="CustomerManager"]
+position = Vector2(82, 467)
+scale = Vector2(0.159, 0.159)
+texture = ExtResource("3_o3cub")
+
+[node name="n3" type="Sprite2D" parent="CustomerManager"]
+position = Vector2(-456, 631)
+scale = Vector2(0.159, 0.159)
+texture = ExtResource("4_qech1")
+
+[node name="n4" type="Sprite2D" parent="CustomerManager"]
+position = Vector2(-484, 651)
+scale = Vector2(0.159, 0.159)
+texture = ExtResource("5_fc3g0")
+
+[node name="n5" type="Sprite2D" parent="CustomerManager"]
+position = Vector2(-415, 658)
+scale = Vector2(0.159, 0.159)
+texture = ExtResource("6_qpvdl")
+
+[node name="n6" type="Sprite2D" parent="CustomerManager"]
+position = Vector2(-366, 687)
+scale = Vector2(0.159, 0.159)
+texture = ExtResource("7_6yc4u")
+
+[node name="n7" type="Sprite2D" parent="CustomerManager"]
+position = Vector2(-341, 687)
+scale = Vector2(0.159, 0.159)
+texture = ExtResource("8_svyq1")
+
+[node name="n8" type="Sprite2D" parent="CustomerManager"]
+position = Vector2(-339, 687)
+scale = Vector2(0.159, 0.159)
+texture = ExtResource("9_cw2ub")
+
+[node name="n9" type="Sprite2D" parent="CustomerManager"]
+position = Vector2(-310, 712)
+scale = Vector2(0.159, 0.159)
+texture = ExtResource("10_wwk02")
+
+[node name="n10" type="Sprite2D" parent="CustomerManager"]
+visible = false
+position = Vector2(139.4, 793.9)
+scale = Vector2(0.159, 0.159)
+texture = ExtResource("11_bmcfk")
+
+[node name="SpawnTimer" type="Timer" parent="CustomerManager"]
+one_shot = true
+
+[node name="SpawnPoints" type="Node" parent="CustomerManager"]
+
+[node name="Point5" type="Marker2D" parent="CustomerManager/SpawnPoints"]
+position = Vector2(600, 482)
+
+[node name="Point4" type="Marker2D" parent="CustomerManager/SpawnPoints"]
+position = Vector2(480, 482)
+
+[node name="Point1" type="Marker2D" parent="CustomerManager/SpawnPoints"]
+position = Vector2(120, 482)
+
+[node name="Point2" type="Marker2D" parent="CustomerManager/SpawnPoints"]
+position = Vector2(240, 482)
+
+[node name="Point3" type="Marker2D" parent="CustomerManager/SpawnPoints"]
+position = Vector2(360, 482)
+
+[node name="MasterChef" type="Sprite2D" parent="CustomerManager"]
+position = Vector2(103, 797)
+scale = Vector2(0.633333, 0.64966)
+texture = ExtResource("55_qech1")
+
+[node name="Shelf3" type="Sprite2D" parent="."]
+position = Vector2(53, 728)
+texture = ExtResource("8_wke1g")
+
+[node name="BabyGroot" type="Sprite2D" parent="."]
+position = Vector2(82.75, 207.25)
+scale = Vector2(0.26424, 0.238136)
+texture = ExtResource("9_ms6rp")
+
+[node name="APainting" type="Sprite2D" parent="."]
+position = Vector2(593, 708)
+scale = Vector2(0.418812, 0.391525)
+texture = ExtResource("10_nkv16")
+
+[node name="Trash" type="Sprite2D" parent="."]
+position = Vector2(532, 97.875)
+rotation = -0.237365
+scale = Vector2(0.366391, 0.334668)
+texture = ExtResource("12_f8bd6")
+
+[node name="Bucks" type="Sprite2D" parent="."]
+position = Vector2(28, 28)
+scale = Vector2(0.08, 0.08)
+texture = ExtResource("59_qech1")
+
+[node name="MoneyManager" type="Node" parent="."]
+script = ExtResource("31_money")
+
+[node name="Bucks" type="Sprite2D" parent="MoneyManager"]
+position = Vector2(-457.76, 38.68)
+scale = Vector2(0.08, 0.08)
+texture = ExtResource("59_qech1")
+
+[node name="MoneyManager" type="Node" parent="MoneyManager"]
+script = ExtResource("31_money")
+
+[node name="MoneyLabel" type="Label" parent="MoneyManager"]
+offset_left = -428.76
+offset_top = 15.68
+offset_right = -372.76
+offset_bottom = 60.68
+theme_override_colors/font_color = Color(1, 0.8, 0.4, 1)
+theme_override_colors/font_outline_color = Color(0.3, 0.2, 0.1, 1)
+theme_override_constants/outline_size = 4
+theme_override_font_sizes/font_size = 32
+text = "100"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="MoneyLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 57.0
+offset_top = 5.0
+offset_right = 113.0
+offset_bottom = 50.0
+theme_override_colors/font_color = Color(1, 0.8, 0.4, 1)
+theme_override_colors/font_outline_color = Color(0.3, 0.2, 0.1, 1)
+theme_override_constants/outline_size = 4
+theme_override_font_sizes/font_size = 32
+text = "100"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Sign" type="Sprite2D" parent="."]
+position = Vector2(277, 114)
+scale = Vector2(0.330682, 0.307863)
+texture = ExtResource("61_o3cub")
+script = ExtResource("30_signscript")
+open_texture = ExtResource("61_o3cub")
+close_texture = ExtResource("63_qech1")
+
+[node name="MarketUI" type="CanvasLayer" parent="."]
+process_mode = 3
+layer = 10
+script = ExtResource("32_market")
+
+[node name="MarketPanel" type="ColorRect" parent="MarketUI"]
+custom_minimum_size = Vector2(500, 1280)
+offset_left = -500.0
+offset_bottom = 1280.0
+color = Color(0.95, 0.92, 0.88, 1)
+
+[node name="MarginContainer" type="MarginContainer" parent="MarketUI/MarketPanel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 60
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 20
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarketUI/MarketPanel/MarginContainer"]
+layout_mode = 2
+
+[node name="TitleLabel" type="Label" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.4, 0.3, 0.25, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 0.3)
+theme_override_constants/outline_size = 2
+theme_override_font_sizes/font_size = 48
+text = "MALZEMELER"
+horizontal_alignment = 1
+
+[node name="HSeparator" type="HSeparator" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="ScrollContainer" type="ScrollContainer" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="ItemList" type="VBoxContainer" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 12
+
+[node name="Banana" type="PanelContainer" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList"]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_1")
+
+[node name="HBox" type="HBoxContainer" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList/Banana"]
+layout_mode = 2
+
+[node name="Icon" type="TextureRect" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList/Banana/HBox"]
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+texture = ExtResource("46_banana")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Name" type="Label" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList/Banana/HBox"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.4, 0.3, 0.2, 1)
+theme_override_font_sizes/font_size = 24
+text = "Muz"
+vertical_alignment = 1
+
+[node name="Price" type="Label" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList/Banana/HBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.8, 0.6, 0.2, 1)
+theme_override_font_sizes/font_size = 28
+text = "10"
+vertical_alignment = 1
+
+[node name="Blueberry" type="PanelContainer" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList"]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_1")
+
+[node name="HBox" type="HBoxContainer" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList/Blueberry"]
+layout_mode = 2
+
+[node name="Icon" type="TextureRect" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList/Blueberry/HBox"]
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+texture = ExtResource("47_blueberry")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Name" type="Label" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList/Blueberry/HBox"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.4, 0.3, 0.2, 1)
+theme_override_font_sizes/font_size = 24
+text = "Yaban Mersini"
+vertical_alignment = 1
+
+[node name="Price" type="Label" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList/Blueberry/HBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.8, 0.6, 0.2, 1)
+theme_override_font_sizes/font_size = 28
+text = "15"
+vertical_alignment = 1
+
+[node name="Bread" type="PanelContainer" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList"]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_1")
+
+[node name="HBox" type="HBoxContainer" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList/Bread"]
+layout_mode = 2
+
+[node name="Icon" type="TextureRect" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList/Bread/HBox"]
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+texture = ExtResource("17_4awtt")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Name" type="Label" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList/Bread/HBox"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.4, 0.3, 0.2, 1)
+theme_override_font_sizes/font_size = 24
+text = "Ekmek"
+vertical_alignment = 1
+
+[node name="Price" type="Label" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList/Bread/HBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.8, 0.6, 0.2, 1)
+theme_override_font_sizes/font_size = 28
+text = "8"
+vertical_alignment = 1
+
+[node name="Egg" type="PanelContainer" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList"]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_1")
+
+[node name="HBox" type="HBoxContainer" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList/Egg"]
+layout_mode = 2
+
+[node name="Icon" type="TextureRect" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList/Egg/HBox"]
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+texture = ExtResource("48_egg")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Name" type="Label" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList/Egg/HBox"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.4, 0.3, 0.2, 1)
+theme_override_font_sizes/font_size = 24
+text = "Yumurta"
+vertical_alignment = 1
+
+[node name="Price" type="Label" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList/Egg/HBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.8, 0.6, 0.2, 1)
+theme_override_font_sizes/font_size = 28
+text = "5"
+vertical_alignment = 1
+
+[node name="Cheese" type="PanelContainer" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList"]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_1")
+
+[node name="HBox" type="HBoxContainer" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList/Cheese"]
+layout_mode = 2
+
+[node name="Icon" type="TextureRect" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList/Cheese/HBox"]
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+texture = ExtResource("49_cheese")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Name" type="Label" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList/Cheese/HBox"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.4, 0.3, 0.2, 1)
+theme_override_font_sizes/font_size = 24
+text = "Peynir"
+vertical_alignment = 1
+
+[node name="Price" type="Label" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList/Cheese/HBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.8, 0.6, 0.2, 1)
+theme_override_font_sizes/font_size = 28
+text = "20"
+vertical_alignment = 1
+
+[node name="Salami" type="PanelContainer" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList"]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_1")
+
+[node name="HBox" type="HBoxContainer" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList/Salami"]
+layout_mode = 2
+
+[node name="Icon" type="TextureRect" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList/Salami/HBox"]
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+texture = ExtResource("50_salami")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Name" type="Label" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList/Salami/HBox"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.4, 0.3, 0.2, 1)
+theme_override_font_sizes/font_size = 24
+text = "Salam"
+vertical_alignment = 1
+
+[node name="Price" type="Label" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList/Salami/HBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.8, 0.6, 0.2, 1)
+theme_override_font_sizes/font_size = 28
+text = "25"
+vertical_alignment = 1
+
+[node name="Butter" type="PanelContainer" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList"]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_1")
+
+[node name="HBox" type="HBoxContainer" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList/Butter"]
+layout_mode = 2
+
+[node name="Icon" type="TextureRect" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList/Butter/HBox"]
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+texture = ExtResource("51_butter")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Name" type="Label" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList/Butter/HBox"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.4, 0.3, 0.2, 1)
+theme_override_font_sizes/font_size = 24
+text = "Tereyağı"
+vertical_alignment = 1
+
+[node name="Price" type="Label" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList/Butter/HBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.8, 0.6, 0.2, 1)
+theme_override_font_sizes/font_size = 28
+text = "12"
+vertical_alignment = 1
+
+[node name="Milk" type="PanelContainer" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList"]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_1")
+
+[node name="HBox" type="HBoxContainer" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList/Milk"]
+layout_mode = 2
+
+[node name="Icon" type="TextureRect" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList/Milk/HBox"]
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+texture = ExtResource("52_milk")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Name" type="Label" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList/Milk/HBox"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.4, 0.3, 0.2, 1)
+theme_override_font_sizes/font_size = 24
+text = "Süt"
+vertical_alignment = 1
+
+[node name="Price" type="Label" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList/Milk/HBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.8, 0.6, 0.2, 1)
+theme_override_font_sizes/font_size = 28
+text = "8"
+vertical_alignment = 1
+
+[node name="Oats" type="PanelContainer" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList"]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_1")
+
+[node name="HBox" type="HBoxContainer" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList/Oats"]
+layout_mode = 2
+
+[node name="Icon" type="TextureRect" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList/Oats/HBox"]
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+texture = ExtResource("53_oats")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Name" type="Label" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList/Oats/HBox"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.4, 0.3, 0.2, 1)
+theme_override_font_sizes/font_size = 24
+text = "Yulaf"
+vertical_alignment = 1
+
+[node name="Price" type="Label" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList/Oats/HBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.8, 0.6, 0.2, 1)
+theme_override_font_sizes/font_size = 28
+text = "10"
+vertical_alignment = 1
+
+[node name="Flour" type="PanelContainer" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList"]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_1")
+
+[node name="HBox" type="HBoxContainer" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList/Flour"]
+layout_mode = 2
+
+[node name="Icon" type="TextureRect" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList/Flour/HBox"]
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+texture = ExtResource("54_flour")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Name" type="Label" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList/Flour/HBox"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.4, 0.3, 0.2, 1)
+theme_override_font_sizes/font_size = 24
+text = "Un"
+vertical_alignment = 1
+
+[node name="Price" type="Label" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList/Flour/HBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.8, 0.6, 0.2, 1)
+theme_override_font_sizes/font_size = 28
+text = "7"
+vertical_alignment = 1
+
+[node name="Salt" type="PanelContainer" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList"]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_1")
+
+[node name="HBox" type="HBoxContainer" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList/Salt"]
+layout_mode = 2
+
+[node name="Icon" type="TextureRect" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList/Salt/HBox"]
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+texture = ExtResource("55_salt")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Name" type="Label" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList/Salt/HBox"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.4, 0.3, 0.2, 1)
+theme_override_font_sizes/font_size = 24
+text = "Tuz"
+vertical_alignment = 1
+
+[node name="Price" type="Label" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList/Salt/HBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.8, 0.6, 0.2, 1)
+theme_override_font_sizes/font_size = 28
+text = "3"
+vertical_alignment = 1
+
+[node name="Sugar" type="PanelContainer" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList"]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_1")
+
+[node name="HBox" type="HBoxContainer" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList/Sugar"]
+layout_mode = 2
+
+[node name="Icon" type="TextureRect" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList/Sugar/HBox"]
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+texture = ExtResource("56_sugar")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Name" type="Label" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList/Sugar/HBox"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.4, 0.3, 0.2, 1)
+theme_override_font_sizes/font_size = 24
+text = "Şeker"
+vertical_alignment = 1
+
+[node name="Price" type="Label" parent="MarketUI/MarketPanel/MarginContainer/VBoxContainer/ScrollContainer/ItemList/Sugar/HBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.8, 0.6, 0.2, 1)
+theme_override_font_sizes/font_size = 28
+text = "5"
+vertical_alignment = 1
+
+[node name="CloseButton" type="TextureButton" parent="MarketUI/MarketPanel"]
+layout_mode = 0
+offset_left = 420.0
+offset_top = 15.0
+offset_right = 485.0
+offset_bottom = 80.0
+texture_normal = ExtResource("2_close")
+stretch_mode = 0
+script = SubResource("GDScript_CloseButton")
+
+[node name="HandleHanger" type="Sprite2D" parent="."]
+position = Vector2(332, 763)
+texture = ExtResource("74_7w1la")
+
+[node name="SooupSpoon" type="Sprite2D" parent="."]
+position = Vector2(268, 823)
+scale = Vector2(0.673077, 0.666583)
+texture = ExtResource("74_x63ct")
+
+[node name="Spatula" type="Sprite2D" parent="."]
+position = Vector2(397, 832)
+scale = Vector2(0.7, 0.7)
+texture = ExtResource("75_7w1la")
+
+[node name="Spoon" type="Sprite2D" parent="."]
+position = Vector2(333, 831)
+scale = Vector2(0.7, 0.7)
+texture = ExtResource("76_e0orf")
+
+[node name="CookBookButton" type="TextureButton" parent="."]
+layout_mode = 0
+offset_left = 667.0
+offset_top = 1.0
+offset_right = 771.0
+offset_bottom = 101.0
+scale = Vector2(0.5, 0.5)
+texture_normal = ExtResource("2_cookbook")
+ignore_texture_size = true
+stretch_mode = 0
+script = SubResource("GDScript_CookBookButton")
+
+[node name="CookBookUI" type="CanvasLayer" parent="."]
+script = ExtResource("1_cookbook")
+
+[node name="BookBack" type="Sprite2D" parent="CookBookUI"]
+position = Vector2(360, 640)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_bookback")
+
+[node name="BookPages" type="Sprite2D" parent="CookBookUI/BookBack"]
+texture = ExtResource("5_bookpages")
+
+[node name="BookMid" type="Sprite2D" parent="CookBookUI/BookBack"]
+texture = ExtResource("4_bookmid")
+
+[node name="LeftPage" type="ScrollContainer" parent="CookBookUI"]
+offset_left = 2.0
+offset_top = 392.0
+offset_right = 320.0
+offset_bottom = 885.0
+
+[node name="LeftContent" type="GridContainer" parent="CookBookUI/LeftPage"]
+layout_mode = 2
+theme_override_constants/h_separation = 5
+theme_override_constants/v_separation = 5
+columns = 3
+
+[node name="RightPage" type="Control" parent="CookBookUI"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 409.0
+offset_top = 462.0
+offset_right = 720.0
+offset_bottom = 922.0
+
+[node name="CloseButton" type="TextureButton" parent="CookBookUI"]
+offset_left = 647.0
+offset_top = 383.0
+offset_right = 712.0
+offset_bottom = 448.0
+texture_normal = ExtResource("2_close")
+stretch_mode = 0
+script = SubResource("GDScript_CloseButton")
+
+[node name="point6" type="Marker2D" parent="."]
+position = Vector2(70, 675)
+
+[node name="point7" type="Marker2D" parent="."]
+position = Vector2(140, 675)
+
+[node name="point8" type="Marker2D" parent="."]
+position = Vector2(210, 675)
+
+[node name="point9" type="Marker2D" parent="."]
+position = Vector2(280, 675)
+
+[node name="point10" type="Marker2D" parent="."]
+position = Vector2(350, 675)
+
+[node name="C3" type="Sprite2D" parent="."]
+position = Vector2(873, 378)
+scale = Vector2(0.573242, 0.982422)
+texture = ExtResource("88_cw2ub")
+
+[node name="GameOverUI" parent="." instance=ExtResource("1_gameover")]
+
+[connection signal="pressed" from="MarketUI/MarketPanel/CloseButton" to="MarketUI" method="close_market"]

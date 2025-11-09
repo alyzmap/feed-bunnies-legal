@@ -1,0 +1,44 @@
+keys,en
+GAME_OVER_TITLE,GAME OVER!
+GAME_OVER_BALANCE,Money: {balance}
+GAME_OVER_RESTART,Restart
+TIP_TOO_MANY_ANGRY,💡 Too many customers left!\nPrepare and serve food faster!
+TIP_WRONG_FOOD,💡 Too many wrong orders!\nCheck the recipes carefully!
+TIP_SPOILED_FOOD,💡 Too much food spoiled!\nServe within 30 seconds!
+TIP_MANAGE_TIME,💡 Serve customers faster!\nServe before patience runs out.
+TIP_UNLOCK_INGREDIENTS,💡 Complex recipes earn more!\nMake 3-4 ingredient dishes.
+TIP_WATCH_TIMER,💡 Serve food within 30s!\nDon't let them spoil!
+TIP_CHECK_ORDERS,💡 Don't serve wrong food!\nEach mistake costs -30 money.
+TIP_STAY_CALM,💡 Spend money wisely!\nPrioritize essential ingredients.
+MARKET_TITLE,INGREDIENTS
+MARKET_LOCKED,Locked
+MARKET_PRICE,${price}
+COOKBOOK_TITLE,RECIPES
+COOKBOOK_LOCKED,???
+COOKBOOK_INGREDIENTS,Ingredients:
+CUSTOMER_ANGRY,😠 Customer left angrily
+CUSTOMER_PENALTY,💸 Customer penalty: -{penalty} money!
+WRONG_FOOD_PENALTY,❌ Wrong order! -{penalty} money penalty
+SPOILED_FOOD_PENALTY,🤢 SPOILED FOOD SERVED! -{penalty} money penalty
+GAME_OVER_MONEY,💀 GAME OVER! Out of money
+COOKING_IN_PROGRESS,Cooking in progress, cannot add ingredients!
+CANNOT_OPEN_MARKET_BOOK,Cannot open market while cookbook is open!
+CANNOT_OPEN_MARKET_INGREDIENT,Cannot open market while holding ingredient!
+CANNOT_OPEN_MARKET_FOOD,Cannot open market while holding food!
+NOT_ENOUGH_MONEY,Not enough money!
+INGREDIENT_BOUGHT,✅ Purchased
+INGREDIENT_UNLOCKED,🔓 New ingredient unlocked
+NOT_ENOUGH_MONEY_UNLOCK,Not enough money to unlock!
+MONEY_LABEL,Money: ${money}
+INGREDIENT_EGG,Egg
+INGREDIENT_FLOUR,Flour
+INGREDIENT_BREAD,Bread
+INGREDIENT_BANANA,Banana
+INGREDIENT_BLUEBERRY,Blueberry
+INGREDIENT_CHEESE,Cheese
+INGREDIENT_SALAMI,Salami
+INGREDIENT_MILK,Milk
+INGREDIENT_BUTTER,Butter
+INGREDIENT_SALT,Salt
+INGREDIENT_SUGAR,Sugar
+INGREDIENT_OATS,Oats
